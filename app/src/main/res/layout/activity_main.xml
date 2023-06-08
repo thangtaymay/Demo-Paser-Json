@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edittext_tukhoa"
+        android:layout_width="270dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="nhap vao tu khoa"
+        android:inputType="textPersonName"
+        />
+
+
+    <Button
+        android:id="@+id/btn_timkiem"
+        android:layout_width="122dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:text="tim kiem"
+        />
+
+    <GridView
+        android:id="@+id/gridview_danhsach"
+        android:layout_width="match_parent"
+        android:numColumns="3"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
